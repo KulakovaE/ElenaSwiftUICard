@@ -13,6 +13,8 @@
 		F3EE5A5324323319003506BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EE5A5224323319003506BF /* Assets.xcassets */; };
 		F3EE5A5624323319003506BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EE5A5524323319003506BF /* Preview Assets.xcassets */; };
 		F3EE5A5924323319003506BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EE5A5724323319003506BF /* LaunchScreen.storyboard */; };
+		F3EE5A6524323D2E003506BF /* Playball-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3EE5A6424323BC7003506BF /* Playball-Regular.ttf */; };
+		F3EE5A6624323D31003506BF /* PoiretOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3EE5A622432389B003506BF /* PoiretOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F3EE5A5524323319003506BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3EE5A5824323319003506BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3EE5A5A24323319003506BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EE5A622432389B003506BF /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
+		F3EE5A6424323BC7003506BF /* Playball-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Playball-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F3EE5A4B24323317003506BF /* ElenaSwiftUICard */ = {
 			isa = PBXGroup;
 			children = (
+				F3EE5A63243238C1003506BF /* Fonts */,
 				F3EE5A4C24323317003506BF /* AppDelegate.swift */,
 				F3EE5A4E24323317003506BF /* SceneDelegate.swift */,
 				F3EE5A5024323317003506BF /* ContentView.swift */,
@@ -73,6 +78,15 @@
 				F3EE5A5524323319003506BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3EE5A63243238C1003506BF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F3EE5A622432389B003506BF /* PoiretOne-Regular.ttf */,
+				F3EE5A6424323BC7003506BF /* Playball-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EE5A6524323D2E003506BF /* Playball-Regular.ttf in Resources */,
 				F3EE5A5924323319003506BF /* LaunchScreen.storyboard in Resources */,
 				F3EE5A5624323319003506BF /* Preview Assets.xcassets in Resources */,
+				F3EE5A6624323D31003506BF /* PoiretOne-Regular.ttf in Resources */,
 				F3EE5A5324323319003506BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
