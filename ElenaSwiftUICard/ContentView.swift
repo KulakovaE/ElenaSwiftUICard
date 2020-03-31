@@ -31,9 +31,13 @@ struct ContentView: View {
                     .font(Font.custom("PoiretOne", size: 25))
                 Divider()
             
-                InfoView(text: "+46 72 001 24 45", imageName: "phone.fill")
-                InfoView(text: "kulakovaelena15@gmail.com", imageName: "envelope.fill")
-                InfoView(text: "https://kulakovae.github.io", imageName: "pencil.circle.fill")
+                
+                VStack(spacing: -15){
+                    InfoView(text: "+46 72 001 24 45", imageName: "phone.fill")
+                    InfoView(text: "kulakovaelena15@gmail.com", imageName: "envelope.fill")
+                    InfoView(text: "https://kulakovae.github.io", imageName: "pencil.circle.fill")
+                }
+                
             }
             
         }
